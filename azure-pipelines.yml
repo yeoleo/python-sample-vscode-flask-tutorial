@@ -38,5 +38,5 @@ steps:
     which pip3
     echo "Version of pip is"
     pip --version
-    pytest
+    pytest --version
   displayName: 'pytest'
