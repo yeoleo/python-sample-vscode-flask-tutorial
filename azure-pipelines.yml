@@ -32,8 +32,11 @@ steps:
 
 - script: |
     pip install pytest pytest-azurepipelines
+    echo "checking version of pip"
     which pip
+    echo "checking version of pip3"
     which pip3
+    echo "Version of pip is"
     pip --version
     pytest
   displayName: 'pytest'
